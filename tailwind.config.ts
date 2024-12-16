@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Roxborough: ['var(--font-roxb)'],
+        HelveticaNeue: ['var(--font-helvetica)']
+      },
     },
   },
   plugins: [],
