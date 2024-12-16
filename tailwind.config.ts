@@ -11,10 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        myPink: "#F8AEAE",
       },
       fontFamily: {
         Roxborough: ['var(--font-roxb)'],
         HelveticaNeue: ['var(--font-helvetica)']
+      },
+      fontSize: {
+        normalText: "1.25rem",
       },
     },
   },

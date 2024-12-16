@@ -3,8 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-Roxborough">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start bg-lime-500 bg-opacity-5">
+        <div className=" relative">
+          <p className="font-HelveticaNeue absolute top-8 left-5 text-normalText font-light">Just a</p>
+          <h1 className="text-myPink font-Roxborough font-black text-[9.375rem] italic">Monster</h1>
+          <p className="font-HelveticaNeue absolute right-52 bottom-2 text-normalText font-light">story</p>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
