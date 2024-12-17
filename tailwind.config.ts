@@ -20,6 +20,9 @@ export default {
       fontSize: {
         normalText: "1.25rem",
       },
+      backgroundImage: {
+        'noise': "url('/noise.gif')",
+      },
     },
   },
   plugins: [],
