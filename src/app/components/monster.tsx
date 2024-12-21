@@ -1,7 +1,7 @@
 import Image from "next/image";
 import themesData from "../data/themesData";
 
-export default function Home() {
+export default function Monster() {
     // Récupération des images du premier thème
     const monsterImages = themesData.find(theme => theme.theme === "Monster")?.images;
 
@@ -11,7 +11,7 @@ export default function Home() {
             {monsterImages && (
                 <>
                     {/* Image 1 */}
-                    <div className="col-span-4 col-start-2 flex flex-col justify-start absolute -bottom-[28rem]">
+                    <div className="col-span-4 col-start-2 flex flex-col justify-start absolute -bottom-[46rem]">
                         <Image
                             src={monsterImages[1].src}
                             alt={monsterImages[1].description}
@@ -25,7 +25,7 @@ export default function Home() {
                         </div>
                     </div>
                     {/* Image 2 */}
-                    <div className="col-span-4 col-start-8 flex flex-col justify-end absolute top-1 ">
+                    <div className="col-span-4 col-start-8 flex flex-col justify-end absolute -bottom-64 ">
                         <Image
                             src={monsterImages[0].src}
                             alt={monsterImages[0].description}
