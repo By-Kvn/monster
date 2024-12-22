@@ -62,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Roxborough.variable} ${HelveticaNeue.variable} antialiased relative h-auto`}
+        className={`${Roxborough.variable} ${HelveticaNeue.variable} antialiased relative min-h-[600vh]`}
       >
         <div className=" absolute inset-0 bg-noise"></div>
         <div className=" absolute inset-0 bg-black/85"></div>
