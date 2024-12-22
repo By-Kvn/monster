@@ -19,7 +19,7 @@ export default function Clock() {
     }
 
     return (
-        <div className="md:flex items-center space-x-2 text-sm font-extralight hidden ">
+        <div className="md:flex items-center space-x-2 text-sm font-extralight hidden fixed ">
             <p className="">Dusseldorf,</p>
             <span className='-mb-[3px] font-HelveticaNeue'>{currentTime.toLocaleTimeString([], { hour: 'numeric', minute: 'numeric' })}</span>
         </div>
